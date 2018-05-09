@@ -1,0 +1,75 @@
+
+#banner h1
+{
+    color: transparent;
+    font-family: "Open Sans" , "Helvetica Neue" ,Helvetica,Arial,sans-serif;
+    text-shadow: rgba(245, 25, 18, 0.35) 0 0px 0px, rgba(0, 0, 30, 0.08) 0px 2px 2px, rgba(0, 0, 30, 0.20) 0px 2px 1px, rgba(0, 0, 30, 0.40) 0px 2px 1px, rgba(0, 0, 0, 0.08) -5px 5px 2px;
+    font-weight: lighter;
+    font-size: 8em;
+    word-spacing: 5px;
+    line-height: 1.5em;
+    padding: -30px;
+    position: fixed;
+    }
+#banner p{
+    color: rgb(0,0,0);
+    font-family: "Open Sans" , "Helvetica Neue" ,Helvetica,Arial,sans-serif;
+    padding: 130px;
+    position: fixed;
+   font-size:3em;
+   font-size: 4em;
+    line-height: 1em;
+
+}
+#banner
+{
+    margin: 50px 0px 0px 0px;
+    color: #ACD1BA;
+    text-shadow: rgba(245, 245, 255, 0.35) 0 0px 0px, rgba(0, 0, 30, 0.08) 0px 2px 2px, rgba(0, 0, 30, 0.20) 0px 2px 1px, rgba(0, 0, 30, 0.40) 0px 2px 1px, rgba(0, 0, 0, 0.08) -5px 5px 2px;
+    font-weight: lighter;
+    padding-top: 150px;
+}
+
+
+img
+{
+      background: #333;
+	background: rgba(51, 51, 51, 0.1);
+}
+
+.registrationform
+{
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.3);
+    color: white !important;
+}
+
+input{
+    
+    color: #FFF;
+}
+.control-label
+{
+    color: #FFFFFF;
+}
+
+legend
+{
+    text-align: left;
+    color: #FFFFFF;
+    font-weight: lighter;
+    font-size: 26px;
+}
+
+input[type="text"]:focus, 
+{
+	outline: 0;
+	
+  
+    -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none;
+}
+input[type="text"]:-moz-placeholder
+    color: #999999;
+}
+input[type="text"]:-ms-input-placeholder, 
+input[type="text"]::-webkit-input-placeholder, r

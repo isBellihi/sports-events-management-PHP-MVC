@@ -1,0 +1,14 @@
+{
+    "name": "ismails/pfa",
+    "description": "project de fin d'annee MVC PHP",
+    "type": "project",
+    "require": {},
+    "autoload": {
+      "psr-4": {
+        "Components\\": "app/components/",
+        "Controllers\\": "app/controllers/",
+        "Models\\": "app/Models",
+        "Database\\":"database/",
+        "App\\" : "app/"  }
+    }
+}
