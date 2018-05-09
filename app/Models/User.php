@@ -1,20 +1,18 @@
 <?php 
 namespace Models;
 
- class User{
+ class User extends Model{
 
 
- 	function __construct($id=0,$nom=0,$prenom=0,$etablissement=0,$adresse=0,$dateNaissonce=0){
- 		$this->id=$id;$this->nom=$nom;$this->prenom=$prenom;
- 		$this->etablissement=$etablissement;$this->adresse=$adresse;
- 		$this->dateNaissonce=$dateNaissonce;
+ 	function __construct(){
+ 		parent::__construct();
  	}
 
 
- 	public function __get($key){
+ 	/*public function __get($key){
  		$this->$key=$key;
  		var_dump($key);
- 	}
+ 	}*/
 
 
 

@@ -26,7 +26,7 @@ class Config
         $this->settings = require dirname(__DIR__) . '../config/config.php';
     }
 
-    public function get($key){
+    public function __get($key){
         if(!isset($this->settings[$key])){
             return null;
         }

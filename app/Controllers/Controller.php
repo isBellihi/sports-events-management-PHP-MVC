@@ -8,8 +8,21 @@
 
 namespace App\Controllers;
 
-
 class Controller
 {
+    protected $viewPath;
+    protected $layout;
 
+    public function __construct(){
+        $this->viewPath = ROOT . '/PFA/resources/';
+        $this->layout = ROOT . '/PFA/resources/';
+    }
+
+    public function view($view, $vars= []){
+        ob_start();
+        extract($vars);
+        require($this->viewPath . 'views/' . str_replace('.','/',$view). '.php');
+        $content = ob_get_clean();
+        require($this->viewPath . 'layouts/navbar.php');
+    }
 }

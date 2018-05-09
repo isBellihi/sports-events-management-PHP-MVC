@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Sport Facile</title>
- <style>
+    <title>Sweet Home</title>
+       <style>
 #login-dp{
     min-width: 250px;
     padding: 14px 14px 0;
@@ -59,19 +60,40 @@
         border-top:0 none;
     }
 }
+body{
+     background-image:url(uploads/backe/background7.jpg) ;
+     background-size: cover;
+    padding: 0;
+    margin: 0;
 
-
+}
 </style>
 
-    <link href = "/PFA/css/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <!-- Theme CSS pour changer la coleur de nav bar -->
-    <link href="/PFA/public/css/creative.min.css" rel="stylesheet" type="text/css">
-		<script type="text/javascript" src="/PFA/js/jquery.min.js"></script>
-		<script type="text/javascript" src="/PFA/css/bootstrap/js/bootstrap.min.js"> </script>
+      
+        <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/bootstrap.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/font-awesome.css') }}" rel="stylesheet">
 
-</head>
-<body id="page-top">
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+
+    
+    
+    <!-- Plugin CSS -->
+          <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/bootstrap.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/font-awesome.css') }}" rel="stylesheet">
+<link href="{{asset('css/shop-homepage.css')}}" rel="stylesheet">
+    
+    <link href="{{asset('css/agency.min.css')}}" rel="stylesheet">
+    <!-- Plugin CSS -->
+    
+
+    <!-- Theme CSS -->
+    <link href="{{asset('css/creative.min.css')}}" rel="stylesheet">
+    
+
+
+<body id="page-top">    
+     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header" style="padding-top: 10px">
@@ -82,7 +104,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a class="page-scroll" href="">Compétitions</a>
+                        <a class="page-scroll" href="">logements</a>
                     </li>
 
                     <li>
@@ -153,8 +175,74 @@
                 </ul>
             </div>
         </div>
-    </nav>
-    <?php if(isset($content)) echo $content; ?>
-        <script type="text/javascript" src="/PFA/js/creative.js"> </script>
-</body>
-</html>'
+    </nav>  
+   <h1>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</h1>
+   
+   <p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href="#">Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p>
+   
+   <h2>Header Level 2</h2>
+   
+   <ol>
+       <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+       <li>Aliquam tincidunt mauris eu risus.</li>
+   </ol>
+   
+   <blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote>
+   
+   <h3>Header Level 3</h3>
+   
+   <ul>
+       <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+       <li>Aliquam tincidunt mauris eu risus.</li>
+   </ul>
+   
+   <pre><code>
+   #header h1 a { 
+       display: block; 
+       width: 300px; 
+       height: 80px; 
+   }
+   </code></pre><h1>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</h1>
+   
+   <p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href="#">Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p>
+   
+   <h2>Header Level 2</h2>
+   
+   <ol>
+       <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+       <li>Aliquam tincidunt mauris eu risus.</li>
+   </ol>
+   
+   <blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote>
+   
+   <h3>Header Level 3</h3>
+   
+   <ul>
+       <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+       <li>Aliquam tincidunt mauris eu risus.</li>
+   </ul>
+   
+   <pre><code>
+   #header h1 a { 
+       display: block; 
+       width: 300px; 
+       height: 80px; 
+   }
+   </code></pre>
+
+
+
+    <link href = "/PFA/css/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" id="bootstrap-css">
+   
+    <!-- Theme CSS pour changer la coleur de nav bar -->
+    <link href="/PFA/public/css/creative.min.css" rel="stylesheet" type="text/css">
+
+        <script type="text/javascript" src="/PFA/js/jquery.min.js"></script>
+                <script type="text/javascript" src="/PFA/js/jquery.js"></script>    
+        <script type="text/javascript" src="/PFA/css/bootstrap/js/bootstrap.min.js"> </script>
+        <script type="text/javascript" src="/PFA/js/creative.min.js"> </script>
+                <script type="text/javascript" src="/PFA/js/creative.js"> </script>
+        <script type="text/javascript" src="/PFA/js/agency.min.js"> </script>
+
+    </body>
+</html>

@@ -37,11 +37,11 @@ class ComposerStaticInitadd7dc4f36579a99cabbfc25e4fefd59
         ),
         'Controllers\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/app/controllers',
+            0 => __DIR__ . '/../..' . '/controllers',
         ),
         'Components\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/app/components',
+            0 => __DIR__ . '/../..' . '/components',
         ),
         'App\\' => 
         array (

@@ -27,7 +27,7 @@ aside{padding:50px 0}
 .navbar-default .navbar-header .navbar-brand{color: #8a8a5c}
 .navbar-default .navbar-header .navbar-brand:focus,.navbar-default .navbar-header .navbar-brand:hover{color:blue}
 .navbar-default .nav>li>a,.navbar-default .nav>li>a:focus{color:black}
-.navbar-default .nav>li>a:focus:hover,.navbar-default .nav>li>a:hover{color:blue}.navbar-default.affix{background-color:rgb(0,0,0);border-color:rgba(34,34,34,.05)}
+.navbar-default .nav>li>a:focus:hover,.navbar-default .nav>li>a:hover{color:blue}.navbar-default.affix{background-color:rgb(0,0,0;border-color:rgba(34,34,34,.05)}
 .navbar-default.affix .navbar-header .navbar-brand{color:#F05F40;font-size:20px}
 .navbar-default.affix .navbar-header .navbar-brand:focus,.navbar-default.affix .navbar-header .navbar-brand:hover{color:#eb3812}
 .navbar-default.affix .nav>li>a,.navbar-default.affix .nav>li>a:focus{color:white}
